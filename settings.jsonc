@@ -1,0 +1,24 @@
+{
+  // Gruntfuggly.todo-tree
+  "todo-tree.general.tags": ["TODO", "INFO"],
+  "todo-tree.highlights.defaultHighlight": {
+		"borderRadius": "5px",
+		"fontWeight": "900",
+		"gutterIcon": true,
+		"type": "text"
+	},
+  "todo-tree.highlights.customHighlight": {
+		"TODO": {
+			"icon": "checklist",
+			"iconColour": "#FF6961",
+			"foreground": "#ffffff",
+			"background": "#FF6961"
+		},
+		"INFO": {
+			"icon": "info",
+			"iconColour": "#00B4D8",
+			"foreground": "#ffffff",
+			"background": "#00B4D8"
+		}
+	}
+}
